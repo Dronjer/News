@@ -11,7 +11,7 @@ import requests
 
 url_1 = 'https://newsapi.org/v2/top-headlines'
 url_2 = 'https://newsapi.org/v2/everything'
-key = 'fa6fd7b06afc40b4a8acea2ee3e1cb49'
+key = 'Generate your API using https://newsapi.org/'
 
 def source_news(k): #News based on the particular source. 
     print(f'You will be provided with the top headlines of the day using NewsAPI from {k}.')
